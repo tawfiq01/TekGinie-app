@@ -39,6 +39,10 @@ body {
     font-variant-numeric: tabular-nums;
 }
 
+[x-cloak] {
+    display: none !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
         animation-duration: 0.01ms !important;
